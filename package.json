@@ -1,7 +1,7 @@
 {
-  "name": "@tresdoce/nestjs-tracing",
+  "name": "@tresdoce/nestjs-amqp",
   "version": "0.0.1",
-  "description": "NestJS tracing module",
+  "description": "NestJS amqp module",
   "author": {
     "name": "Maximiliano \"Mex\" Delgado",
     "email": "mdelgado@tresdoce.com.ar",
@@ -18,13 +18,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tresdoce/nestjs-tracing.git"
+    "url": "git+https://github.com/tresdoce/nestjs-amqp.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tresdoce/nestjs-tracing/issues"
+    "url": "https://github.com/tresdoce/nestjs-amqp/issues"
   },
-  "homepage": "https://github.com/tresdoce/nestjs-tracing#readme",
+  "homepage": "https://github.com/tresdoce/nestjs-amqp#readme",
   "private": false,
   "scripts": {
     "prebuild": "shx rm -rf pkg",
@@ -37,18 +37,24 @@
     "release": "standard-version"
   },
   "peerDependencies": {
+    "@dollarsign/utils": "^1.7.1",
     "@nestjs/common": "^8.1.2",
+    "@nestjs/config": "^1.2.0",
     "@nestjs/core": "^8.1.2",
     "@nestjs/platform-express": "^8.1.2",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.4.0"
+    "rxjs": "^7.4.0",
+    "rhea-promise": "^2.1.0"
   },
   "dependencies": {
-    "@nestjs/common": "^8.2.0",
-    "@nestjs/core": "^8.2.0",
-    "@nestjs/platform-express": "^8.2.0",
+    "@dollarsign/utils": "^1.7.1",
+    "@nestjs/common": "^8.3.0",
+    "@nestjs/config": "^1.2.0",
+    "@nestjs/core": "^8.3.0",
+    "@nestjs/platform-express": "^8.3.0",
     "lodash": "^4.17.21",
     "reflect-metadata": "^0.1.13",
+    "rhea-promise": "^2.1.0",
     "rxjs": "^7.4.0",
     "shx": "^0.3.3"
   },

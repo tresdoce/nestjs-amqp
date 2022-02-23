@@ -15,7 +15,7 @@
     <br/>
 </p>
 
-Esta dependencia está pensada para ser utilizada en [NestJs Starter](https://github.com/rudemex/nestjs-starter), o 
+Esta dependencia está pensada para ser utilizada en [NestJs Starter](https://github.com/rudemex/nestjs-starter), o
 cualquier proyecto que utilice una configuración centralizada, siguiendo la misma arquitectura del starter.
 
 ## Glosario
@@ -44,7 +44,7 @@ cualquier proyecto que utilice una configuración centralizada, siguiendo la mis
 ## 🛠️ Instalar dependencia
 
 ```
-npm install @tresdoce/nestjs-tracing
+npm install @tresdoce/nestjs-amqp
 ```
 
 <a name="configurations"></a>
@@ -55,7 +55,6 @@ Para excluir los paths `/liveness` y `/readiness` hay que ajustar el `setGlobalP
 
 ```typescript
 // .src/main.ts
-
 ```
 
 <a name="commits"></a>
